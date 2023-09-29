@@ -12,7 +12,9 @@
     "@headlessui/react": "^1.7.17",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-floating-whatsapp": "^5.0.8",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@types/node": "latest",

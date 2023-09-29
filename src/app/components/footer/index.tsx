@@ -1,0 +1,76 @@
+'use client'
+
+import Image from "next/image";
+import Link from "next/link";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { BsFacebook, BsInstagram, BsPhone, BsEnvelope } from "react-icons/bs";
+
+export default function Footer() {
+
+  return (
+    <footer className="p-4 bg-white sm:p-6  max-w-[1280px]  m-auto ">
+      <div className="md:flex md:justify-between">
+        <div className="mb-6 md:mb-0">
+          <a href="#" className="flex items-center">
+            <Image alt="Image Logo" src="/logo_grs.png" width="250" height="250" />
+            {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Achei Meu Apple</span> */}
+          </a>
+        </div>
+        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-white">Navegação</h2>
+            <ul className="text-gray-600 dark:text-gray-400">
+              <li className="mb-1">
+                <Link legacyBehavior href="/">
+                  <a className="hover:underline ">Início</a>
+                </Link>
+              </li>
+              <li className="mb-1">
+                <Link legacyBehavior href="/sobre">
+                  <a className="hover:underline ">Sobre</a>
+                </Link>
+              </li>
+              <li className="mb-1">
+                <Link legacyBehavior href="/perguntas-frequentes">
+                  <a className="hover:underline ">Perguntas Frequentes</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-white">Contato</h2>
+            <ul className="text-gray-600 dark:text-gray-400">
+              <li className="mb-1">
+                <a href="tel:(47)9 92315829" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4" />(47) 99232-6445</a>
+              </li>
+              <li className="break-all">
+                <a href="mailto:jeanrosa.dev@gmail.com" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />jeanrosa.dev@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-white">Redes</h2>
+            <ul className="text-gray-600 dark:text-gray-400">
+              <li className="mb-1">
+                <a href="https://www.facebook.com/GrsQuadros" className="flex gap-2 items-center"><BsFacebook className="h-4 w-4 " /> Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/grs_quadros/" className="flex gap-2 items-center"><BsInstagram className="h-4 w-4 " /> Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <FloatingWhatsApp
+        phoneNumber="5547992315829"
+        // phoneNumber="4792326445" 
+        accountName="GRS Quadros"
+        avatar="/logo_grs.png"
+        darkMode
+        chatMessage="Olá, como podemos te ajudar ?"
+        placeholder="Escreva aqui"
+        statusMessage="Entre em contato abaixo"
+      />
+    </footer>
+  )
+}
