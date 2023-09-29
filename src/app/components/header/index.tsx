@@ -97,7 +97,7 @@ function Header() {
           </div>
         </li> */}
 
-        <Link href="/upgrade" >
+        <Link href="/Galeria" >
           <li className={style} onClick={() => { setIsOpen(!isOpen); disableDropDowns(); }}>
             Galeria
           </li>
