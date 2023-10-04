@@ -8,7 +8,7 @@ import { BsFacebook, BsInstagram, BsPhone, BsEnvelope } from "react-icons/bs";
 export default function Footer() {
 
   return (
-    <footer className="p-4 bg-white sm:p-6">
+    <footer className="p-4 bg-gray-100 sm:p-6 border-t-2 mt-5">
       <div className="md:flex md:justify-between max-w-[1280px]  m-auto px-12">
         <div className="mb-6 md:mb-0">
           <a href="#" className="flex items-center">
@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-white">Navegação</h2>
+            <h2 className="mb-6 text-sm font-semibold text-gray-600">Navegação</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-1">
                 <Link legacyBehavior href="/">
@@ -38,7 +38,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-white">Contato</h2>
+            <h2 className="mb-6 text-sm font-semibold text-gray-600">Contato</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-1">
                 <a href="tel:(47)9 92315829" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4" />(47) 99232-6445</a>
@@ -49,7 +49,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-white">Redes</h2>
+            <h2 className="mb-6 text-sm font-semibold text-gray-600">Redes</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-1">
                 <a href="https://www.facebook.com/GrsQuadros" className="flex gap-2 items-center"><BsFacebook className="h-4 w-4 " /> Facebook</a>

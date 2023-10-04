@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import MapLocation from './components/map_location/index'
-import Link from 'next/link';
 
 export default function Home() {
   return (

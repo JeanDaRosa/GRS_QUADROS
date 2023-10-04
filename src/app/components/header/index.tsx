@@ -97,7 +97,7 @@ function Header() {
           </div>
         </li> */}
 
-        <Link href="/Galeria" >
+        <Link href="/galeria" >
           <li className={style} onClick={() => { setIsOpen(!isOpen); disableDropDowns(); }}>
             Galeria
           </li>
@@ -122,9 +122,9 @@ function Header() {
         </Link>
 
         <div className="invisible md:visible">
-          <Link href="/upgrade" >
+          <Link href="/login" >
             <li className={style} onClick={() => { setIsOpen(!isOpen); disableDropDowns(); }}>
-              <span className="bg-lime-600 text-white text-center py-4 px-10 m-3 rounded-md font-bold shadow-md hover:opacity-70 hover:cursor-pointer" >
+              <span className="bg-lime-600 text-white text-center py-4 px-10 m-3 rounded-md font-bold  hover:opacity-70 hover:cursor-pointer shadow-2xl " >
                 login
               </span>
             </li>
@@ -229,7 +229,7 @@ function Header() {
 
   return (
     <div>
-      <nav className="bg-white p-4">
+      <nav className="bg-gray-100 p-4">
         <MenuDesktop />
         <MenuMobile />
       </nav>
