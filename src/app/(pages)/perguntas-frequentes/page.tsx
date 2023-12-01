@@ -25,7 +25,7 @@ export default function PerguntasFrequentes() {
   ]
   return (
     <>
-      <div className="h-full w-full justify-center items-center flex flex-col p-4">
+      <div className="h-full w-full justify-center items-center flex flex-col p-4 bg-gray-200">
         <h1 className="text-center font-bold text-4xl p-4 mb-6">Perguntas Frequentes</h1>
         <div className="flex flex-col pb-4 justify-center w-full gap-4 max-w-[1180px]">
 

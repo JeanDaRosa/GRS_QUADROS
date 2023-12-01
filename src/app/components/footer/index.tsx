@@ -8,7 +8,7 @@ import { BsFacebook, BsInstagram, BsPhone, BsEnvelope } from "react-icons/bs";
 export default function Footer() {
 
   return (
-    <footer className="p-4 bg-gray-100 sm:p-6 border-t-2 mt-5">
+    <footer className="p-4 bg-gray-100 sm:p-6 border-t-2">
       <div className="md:flex md:justify-between max-w-[1280px]  m-auto px-12">
         <div className="mb-6 md:mb-0">
           <a href="#" className="flex items-center">

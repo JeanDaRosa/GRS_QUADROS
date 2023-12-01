@@ -1,22 +1,11 @@
 'use client'
 
-import Head from "next/head";
 import { Fade } from "../../components/Fade";
-import { SiIcon } from 'react-icons/si'
-import { ImWrench } from "react-icons/im";
-import { BiCheckCircle, BiSupport } from "react-icons/bi";
-import { AiOutlineDropbox } from "react-icons/ai";
-import { FaStamp } from "react-icons/fa";
-import { BsBatteryCharging, BsHandThumbsUp } from "react-icons/bs";
-import { MdOutlineTabletMac } from "react-icons/md";
-import { ReactNode } from "react";
 
 export default function Sobre() {
 
   type ConteudoProps = {
-    // titulo: string,
     descricao: string,
-    // icone: ReactNode
   }[];
 
 
@@ -53,12 +42,10 @@ export default function Sobre() {
 
   return (
     <>
-      <Head>
-        <title>GRS Quadros - Sobre</title>
-      </Head>
-      <div className="h-full w-full justify-center items-center flex flex-col p-4 ">
+      <div className="h-full w-full justify-center items-center flex flex-col p-4 bg-gray-200">
         <h1 className="text-center font-bold text-4xl p-4 mb-6">Sobre</h1>
         <div className="pb-16 justify-center items-center gap-4 flex flex-wrap max-w-[1180px] text-center">
+        <Fade delay={300} triggerOnce>
           {conteudo.map((item, idx) => {
             return (
               <div key={idx} >
@@ -71,6 +58,7 @@ export default function Sobre() {
               </div>
             )
           })}
+          </Fade>
         </div>
       </div>
     </>

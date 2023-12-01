@@ -4,7 +4,7 @@ import MapLocation from './components/map_location/index'
 export default function Home() {
   return (
     <>
-      <div className='w-full bg-gray-200 flex flex-col items-center '>
+      <div className='h-full w-full bg-gray-200 flex flex-col items-center '>
         <div className='md:mt-12 mb-12 '>
 
           <Image

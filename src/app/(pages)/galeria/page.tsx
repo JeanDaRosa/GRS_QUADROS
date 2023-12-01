@@ -32,7 +32,7 @@ const slideImages = [
 
 export default function Galeria(){
     return (
-      <div className="slide-container">
+      <div className="slide-container bg-gray-200">
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
