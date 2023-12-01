@@ -122,10 +122,10 @@ function Header() {
         </Link>
 
         <div className="invisible md:visible">
-          <Link href="/login" >
+          <Link href="/area-cliente" >
             <li className={style} onClick={() => { setIsOpen(!isOpen); disableDropDowns(); }}>
-              <span className="bg-lime-600 text-white text-center py-4 px-10 m-3 rounded-md font-bold  hover:opacity-70 hover:cursor-pointer shadow-2xl " >
-                login
+              <span className="bg-lime-600 text-white text-center py-3 px-4 m-3 rounded-md font-bold  hover:opacity-70 hover:cursor-pointer shadow-2xl " >
+                Área do Cliente
               </span>
             </li>
           </Link>

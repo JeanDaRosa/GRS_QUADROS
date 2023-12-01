@@ -26,15 +26,15 @@ export default function PerguntasFrequentes() {
   return (
     <>
       <div className="h-full w-full justify-center items-center flex flex-col p-4 bg-gray-200">
-        <h1 className="text-center font-bold text-4xl p-4 mb-6">Perguntas Frequentes</h1>
+        <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Perguntas Frequentes</h1>
         <div className="flex flex-col pb-4 justify-center w-full gap-4 max-w-[1180px]">
 
           <Fade delay={300} triggerOnce>
             {faqs.map((faq, index) => {
               return (
                 <div key={index} className="p-2">
-                  <p className="leading-6 text-white"><strong>{faq.question}</strong></p>
-                  <p className="leading-6 text-zinc-200">{faq.answer}</p>
+                  <p className="leading-6 text-gray-800"><strong>{faq.question}</strong></p>
+                  <p className="leading-6 text-zinc-600">{faq.answer}</p>
                 </div>
               )
             })}

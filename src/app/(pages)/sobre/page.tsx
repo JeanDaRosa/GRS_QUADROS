@@ -43,7 +43,7 @@ export default function Sobre() {
   return (
     <>
       <div className="h-full w-full justify-center items-center flex flex-col p-4 bg-gray-200">
-        <h1 className="text-center font-bold text-4xl p-4 mb-6">Sobre</h1>
+        <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Sobre</h1>
         <div className="pb-16 justify-center items-center gap-4 flex flex-wrap max-w-[1180px] text-center">
         <Fade delay={300} triggerOnce>
           {conteudo.map((item, idx) => {
@@ -52,7 +52,7 @@ export default function Sobre() {
                 {/* <Fade delay={300} triggerOnce> */}
 
                 <div className="flex p-4 items-center justify-center text-red-700">
-                  <p className="text-black bg-red">{item.descricao}</p>
+                  <p className="text-gray-600 bg-red">{item.descricao}</p>
                 </div>
                 {/* </Fade> */}
               </div>
