@@ -41,10 +41,10 @@ export default function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-600">Contato</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-1">
-                <a href="tel:(47)9 92315829" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4" />(47) 99232-6445</a>
+                <a href="tel:(47) 3333-3717" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4" />(47) 3333-3717</a>
               </li>
               <li className="break-all">
-                <a href="mailto:jeanrosa.dev@gmail.com" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />jeanrosa.dev@gmail.com</a>
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />grs.quadros@terra.com.br</a>
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
       </div>
       <FloatingWhatsApp
-        phoneNumber="5547992315829"
+        phoneNumber="554733333717"
         // phoneNumber="4792326445" 
         accountName="GRS Quadros"
         avatar="/logo_grs.png"

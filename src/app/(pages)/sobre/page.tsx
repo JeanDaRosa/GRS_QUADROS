@@ -54,7 +54,7 @@ export default function Sobre() {
   return (
     <>
       <Head>
-        <title>Achei Meu Apple - Sobre</title>
+        <title>GRS Quadros - Sobre</title>
       </Head>
       <div className="h-full w-full justify-center items-center flex flex-col p-4 ">
         <h1 className="text-center font-bold text-4xl p-4 mb-6">Sobre</h1>
