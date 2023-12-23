@@ -38,13 +38,13 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-600">Financeiro</h2>
+            <h2 className="mb-6 text-sm font-semibold text-gray-600">Contato</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-1">
-                <a href="tel:(47) 3333-3717" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4" />(47) 3333-3717</a>
+                <a href="tel:(47) 3333-3717" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4 text-red-600" />(47) 3333-3717</a>
               </li>
               <li className="mb-1">
-                <a href="tel:(47) 3333-3717" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4" />(47) 3306-7682</a>
+                <a href="tel:(47) 3333-3717" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4 text-red-600" />(47) 3306-7682</a>
               </li>
             </ul>
           </div>
@@ -52,10 +52,10 @@ export default function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-600">Financeiro</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />financeiro@grsquadros.com.br</a>
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />financeiro@grsquadros.com.br</a>
               </li>
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />claudete@grsquadros.com.br</a>
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />claudete@grsquadros.com.br</a>
               </li>
             </ul>
           </div>
@@ -63,13 +63,13 @@ export default function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-600">Desenvolvimento</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />mayara@grsquadros.com.br</a>
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />mayara@grsquadros.com.br</a>
               </li>
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />janaina@grsquadros.com.br</a>
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />janaina@grsquadros.com.br</a>
               </li>
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />jessica@grsquadros.com.br</a>
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />jessica@grsquadros.com.br</a>
               </li>
             </ul>
           </div>
@@ -77,10 +77,10 @@ export default function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-600">Redes</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-1">
-                <a href="https://www.facebook.com/GrsQuadros" className="flex gap-2 items-center"><BsFacebook className="h-4 w-4 " /> Facebook</a>
+                <a href="https://www.facebook.com/GrsQuadros" className="flex gap-2 items-center"><BsFacebook className="h-4 w-4 text-red-600" /> Facebook</a>
               </li>
               <li>
-                <a href="https://www.instagram.com/grs_quadros/" className="flex gap-2 items-center"><BsInstagram className="h-4 w-4 " /> Instagram</a>
+                <a href="https://www.instagram.com/grs_quadros/" className="flex gap-2 items-center"><BsInstagram className="h-4 w-4 text-red-600" /> Instagram</a>
               </li>
             </ul>
           </div>
