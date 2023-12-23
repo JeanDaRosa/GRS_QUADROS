@@ -38,13 +38,38 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-600">Contato</h2>
+            <h2 className="mb-6 text-sm font-semibold text-gray-600">Financeiro</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-1">
                 <a href="tel:(47) 3333-3717" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4" />(47) 3333-3717</a>
               </li>
+              <li className="mb-1">
+                <a href="tel:(47) 3333-3717" className="hover:underline flex gap-2 items-center"><BsPhone className="h-4 w-4" />(47) 3306-7682</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-gray-600">Financeiro</h2>
+            <ul className="text-gray-600 dark:text-gray-400">
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />grs.quadros@terra.com.br</a>
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />financeiro@grsquadros.com.br</a>
+              </li>
+              <li className="break-all">
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />claudete@grsquadros.com.br</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-gray-600">Desenvolvimento</h2>
+            <ul className="text-gray-600 dark:text-gray-400">
+              <li className="break-all">
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />mayara@grsquadros.com.br</a>
+              </li>
+              <li className="break-all">
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />janaina@grsquadros.com.br</a>
+              </li>
+              <li className="break-all">
+                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-[#b0e019]" />jessica@grsquadros.com.br</a>
               </li>
             </ul>
           </div>
