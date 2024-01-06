@@ -32,7 +32,7 @@ const slideImages = [
 
 export default function Galeria() {
   return (
-    <div className='ml-auto mr-auto pt-8 pb-16 max-w-6xl'>
+    <div className='ml-auto mr-auto pt-8 pb-16 max-w-6xl bg-gray-200'>
       <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Galeria</h1>
       <div className="slide-container">
         <Slide>
