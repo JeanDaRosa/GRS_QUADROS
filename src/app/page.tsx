@@ -4,7 +4,7 @@ import CardHome from './components/CardHome'
 export default function Home() {
   return (
     <>
-      <div className='h-full w-full bg-gray-200 flex flex-col items-center '>
+      <div className='h-full w-full bg-gray-200 flex flex-col items-center p-4'>
         <h5 className="mt-4 mb-4 text-3xl font-semibold text-gray-800">GRS Quadros e Sublimação</h5>
         <CardHome
           texto="Desenvolvimento de Artes"
