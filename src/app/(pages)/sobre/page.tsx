@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 
 import { Fade } from "../../components/Fade";
 
@@ -60,6 +61,15 @@ export default function Sobre() {
             })}
           </Fade>
         </div>
+      </div>
+      <div className="h-full w-3/4 justify-center items-center flex pb-4 m-auto">
+        <Image style={{
+          filter: 'blur(0.5px)'
+        }} className="h-full  w-full"
+          layout="lazy"
+          width='500'
+          height='500'
+          src='/geral1.jpg' alt='imagem' />
       </div>
     </>
   )

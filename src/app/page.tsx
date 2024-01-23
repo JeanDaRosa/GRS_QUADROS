@@ -9,7 +9,7 @@ export default function Home() {
         <CardHome
           texto="Desenvolvimento de Artes"
           subtexto="Da concepção à materialização, nossa equipe dedicada de designers transforma suas ideias em obras de arte exclusivas, alinhadas à identidade única da sua marca. Cada criação é pensada para transmitir a essência e valores que tornam sua marca memorável."
-          imagem="/serigrafia.png"
+          imagem="/desenvolvimento_arte.jpg"
           alinhamento="esquerda"
         />
 
@@ -30,7 +30,7 @@ export default function Home() {
         <CardHome
           texto="Gravação de Quadros"
           subtexto="Na gravação de quadros, não poupamos esforços para criar a base perfeita para sua estamparia. Cada quadro é gravado com maestria, capturando detalhes essenciais e garantindo que sua estamparia alcance níveis excepcionais de qualidade e durabilidade."
-          imagem="/gravacao.jpg"
+          imagem="/serigrafia.png"
           alinhamento="direita"
         />
         <MapLocation />
