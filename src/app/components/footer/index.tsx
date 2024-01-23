@@ -52,10 +52,12 @@ export default function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-600">Financeiro</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />financeiro@grsquadros.com.br</a>
+                <a href="mailto:financeiro@grsquadros.com.br" className="hover:underline flex gap-2 items-center">
+                  <BsEnvelope className="h-4 w-4 text-red-600" />financeiro@grsquadros.com.br</a>
               </li>
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />claudete@grsquadros.com.br</a>
+                <a href="mailto:claudete@grsquadros.com.br" className="hover:underline flex gap-2 items-center">
+                  <BsEnvelope className="h-4 w-4 text-red-600" />claudete@grsquadros.com.br</a>
               </li>
             </ul>
           </div>
@@ -63,13 +65,16 @@ export default function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-600">Desenvolvimento</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />mayara@grsquadros.com.br</a>
+                <a href="mailto:mayara@grsquadros.com.br" className="hover:underline flex gap-2 items-center">
+                  <BsEnvelope className="h-4 w-4 text-red-600" />mayara@grsquadros.com.br</a>
               </li>
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />janaina@grsquadros.com.br</a>
+                <a href="mailto:janaina@grsquadros.com.br" className="hover:underline flex gap-2 items-center">
+                  <BsEnvelope className="h-4 w-4 text-red-600" />janaina@grsquadros.com.br</a>
               </li>
               <li className="break-all">
-                <a href="mailto:grs.quadros@terra.com.br" className="hover:underline flex gap-2 items-center"><BsEnvelope className="h-4 w-4 text-red-600" />jessica@grsquadros.com.br</a>
+                <a href="mailto:jessica@grsquadros.com.br" className="hover:underline flex gap-2 items-center">
+                  <BsEnvelope className="h-4 w-4 text-red-600" />jessica@grsquadros.com.br</a>
               </li>
             </ul>
           </div>
