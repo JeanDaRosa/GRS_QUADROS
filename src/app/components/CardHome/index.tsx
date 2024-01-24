@@ -33,7 +33,7 @@ export default function CardHome({ imagem, texto, subtexto, alinhamento }: CardH
 
   return (
     <Fade delay={300} triggerOnce>
-      <div className='flex flex-wrap flex-row max-w-6xl gap-4 p-6 mt-4 mb-4'>
+      <div className='flex flex-wrap flex-col md:flex-row max-w-6xl gap-4 p-6 mt-4 mb-4'>
         {
           alinhamento == 'esquerda' ? [ImageArea, TextArea] : [TextArea, ImageArea]
         }
