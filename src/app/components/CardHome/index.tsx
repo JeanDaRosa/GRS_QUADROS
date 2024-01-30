@@ -22,14 +22,13 @@ export default function CardHome({ imagem, texto, subtexto, alinhamento }: CardH
     <div className="flex flex-1">
       <Image style={{
         filter: 'blur(0.5px)'
-      }} className="rounded-lg w-120 sm:h-60 xs:h-20 h-80"
+      }} className="rounded-lg w-120 sm:h-60 xs:h-20 h-36"
         layout="lazy"
         width='500'
         height='500'
         src={imagem} alt={texto} />
     </div>
   )
-
 
   return (
     <Fade delay={300} triggerOnce>
