@@ -19,7 +19,7 @@ export default function Sobre() {
       descricao: "Tínhamos um espaço limitado, trabalhávamos com modéstia e dedicação, sempre valorizando cada cliente e nos dedicando ter a melhor qualidade, na época os quadros na nossa região eram esticados de forma manual, como nosso objetivo sempre foi entregar a melhor qualidade possível, o Aldori se dedicou a estudar e encontrar uma forma melhor, foi então que ele ficou sabendo sobre o sistema de pinças, com a experiência em mecânica ele mesmo montou as próprias pinças, o que melhorou muito nossa qualidade e aumentou consideravelmente nossa lista de clientes já que fornecíamos então um produto de alta qualidade e isso mudou tudo."
     },
     {
-      descricao: "A empresa então começou a invadir parte da casa, e nos vimos tendo a necessidade de expansão, então em 2010 compraram um terreno na rua 7 de setembro, onde foi construída a empresa, na época tínhamos muito espaço sobrando, já em 2011 se viu a necessidade de expandir para os fundos tomando conta de todo o terreno.",
+      descricao: "A empresa então começou a invadir parte da casa, e nos vimos tendo a necessidade de expansão, então em 2009 compraram um terreno na rua 7 de setembro, onde foi construída a empresa, na época tínhamos muito espaço sobrando, já em 2010 se viu a necessidade de expandir para os fundos tomando conta de todo o terreno.",
     },
     {
       descricao: "Em 2012 por uma decisão em conjunto o Aldori e a Claudete compraram a parte do Ademar na empresa, sendo assim a sociedade foi desfeita e a empresa passa a ser apenas do casal."
