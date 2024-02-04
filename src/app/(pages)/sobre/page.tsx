@@ -44,7 +44,7 @@ export default function Sobre() {
   return (
     <>
       <div className="h-full w-full justify-center items-center flex flex-col p-4 bg-gray-200">
-        <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Sobre</h1>
+        <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Sobre Nós</h1>
         <div className="pb-16 justify-center items-center gap-4 flex flex-wrap max-w-[1180px] text-center">
           <Fade delay={300} triggerOnce>
             {conteudo.map((item, idx) => {
@@ -63,10 +63,11 @@ export default function Sobre() {
         </div>
       </div>
       <div className="h-full w-3/4 justify-center items-center flex pb-4 m-auto">
-        <Image style={{
+        <img style={{
           filter: 'blur(0.5px)'
         }} className="h-full  w-full"
-          layout="lazy"
+          // layout="lazy"
+          // quality={100}
           width='500'
           height='500'
           src='/geral1.jpg' alt='imagem' />

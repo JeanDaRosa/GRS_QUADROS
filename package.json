@@ -16,6 +16,7 @@
     "react-dom": "latest",
     "react-floating-whatsapp": "^5.0.8",
     "react-icons": "^4.11.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-slideshow-image": "^4.3.0"
   },
   "devDependencies": {

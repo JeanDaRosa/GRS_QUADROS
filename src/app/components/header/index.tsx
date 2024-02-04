@@ -105,7 +105,7 @@ function Header() {
 
         <Link href="/sobre">
           <li className={style} onClick={() => { setIsOpen(!isOpen); disableDropDowns(); }}>
-            Sobre
+            Sobre Nós
           </li>
         </Link>
 
