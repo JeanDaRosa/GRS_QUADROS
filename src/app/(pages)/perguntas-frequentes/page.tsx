@@ -26,6 +26,14 @@ export default function PerguntasFrequentes() {
       answer: "Nosso prazo normal é de 2 dias úteis após estar tudo certo com a arte e os quadros estarem na empresa, sabemos que a agilidade é um ponto importante no ramo têxtil, e prezamos para que nossos cliente recebam os quadros o quanto antes, mas a nossa prioridade é a qualidade, por isso as vezes o prazo pode acabar se estendendo um pouco, por exemplo se um quadro não passar na inspeção de qualidade, ele será refeito antes de ser entregue e assim acaba atrasando, não se preocupe, você poderá acompanhar o andamento de seus quadros pela área do cliente.",
     },
     {
+      question: "Posso fazer um cancelamento de gravação pelo WattsApp ou e-mail?",
+      answer: "Não, no caso de cancelamentos ou alteração depois de aprovada a gravação pedimos que  nos liguem, pois tanto as mensagens de WhatsApp quanto os e- mails são vistos por ordem de recebimento, então até chegarmos na sua solicitação o quadro já pode ter sido emulsionado ou até mesmo gravado.",
+    },
+    {
+      question: "Até que momento posso cancelar uma gravação sem ter custos?",
+      answer: "Até o quadro ser emulsionado, depois deste processo faltaria apenas a revelação do mesmo, sendo assim o material necessário para a gravação já teria sido usado e o processo restante seria pequeno, por isso pedimos que nos liguem no caso de necessidade, neste momento informaremos em que processo o quadro está.",
+    },
+    {
       question: "O que é a área do cliente?",
       answer: "Pensando sempre na agilidade para nossos clientes, desenvolvemos um sistema que leva em tempo real as informações de como estão as suas gravações, você pode consultar se um quadro já entrou em produção, se já foi gravado ou está pronto.",
     },
