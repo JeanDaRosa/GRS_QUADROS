@@ -1,182 +1,139 @@
 "use client"
 
-import React from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-
-
-
-const divStyle = {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  backgroundSize: 'contain',
-  backgroundRepeat: 'no-repeat',
-  height: '500px',
-  width: '50vw',
-  margin: 'auto'
-}
-
+import React, { useState } from 'react';
 
 const slideImages = [
   {
     url: '/1.jpg',
-
   },
   {
     url: '/2.jpg',
-
   },
   {
     url: '/3.jpg',
-
   },
   {
     url: '/4.jpg',
-
   },
   {
     url: '/5.jpg',
   },
-];
-
-const slideImagesDonos = [
   {
     url: '/donos1.jpg',
-
   },
   {
     url: '/donos2.jpg',
-
   },
   {
     url: '/donos3.jpg',
-
   },
   {
     url: '/donos4.jpg',
-
   },
-];
-const slideImagesA = [
   {
     url: '/a1.jpg',
-
   },
   {
     url: '/a2.jpg',
-
   },
   {
     url: '/a3.jpg',
-
   },
   {
     url: '/a4.jpg',
-
   },
   {
     url: '/a5.jpg',
-
   },
-];
-
-const slideImagesB = [
   {
     url: '/b2.jpg',
-
   },
   {
     url: '/b3.jpg',
-
   },
   {
     url: '/b4.jpg',
-
   },
-];
-
-const slideImagesB1 = [
   {
-    url: '/b1.jpg',
-
+    url: '/c1.jpg',
+  },
+  {
+    url: '/c2.jpg',
+  },
+  {
+    url: '/c3.jpg',
+  },
+  {
+    url: '/c4.jpg',
+  },
+  {
+    url: '/c5.jpg',
+  },
+  {
+    url: '/d1.jpg',
+  },
+  {
+    url: '/d2.jpg',
+  },
+  {
+    url: '/d3.jpg',
+  },
+  {
+    url: '/d4.jpg',
+  },
+  {
+    url: '/geral1.jpg',
+  },
+  {
+    url: '/geral2.jpg',
+  },
+  {
+    url: '/geral3.jpg',
   },
 
+  {
+    url: '/geral4.jpg',
+  },
 ];
 
-export default function Galeria() {
+
+
+const PhotoGrid = () => {
+  const [selectedPhoto, setSelectedPhoto] = useState(null);
+
+  const handleClick = (photo: any) => {
+    setSelectedPhoto(photo);
+  };
+
+  const handleClose = () => {
+    setSelectedPhoto(null);
+  };
+
   return (
-    <>
-      <div className='ml-auto mr-auto pt-8 pb-16 max-w-6xl bg-gray-200'>
-        <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Galeria</h1>
-        <div className="slide-container w-auto h-auto ">
-          <Carousel infiniteLoop showArrows >
-            {slideImages.map((slideImage, index) => (
-              <div key={index}>
-                {/* <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }} >
-                </div> */}
-                <img style={{ width: '70%' }} src={slideImage.url} alt='foto' />
-              </div>
-            ))}
-          </Carousel>
-        </div>
+    <div className="h-full w-full justify-center items-center flex flex-col bg-gray-200">
+      <h1 className="text-center font-bold text-4xl p-4 mb-6 pt-6 text-gray-800">Galeria</h1>
+      <div className="grid grid-cols-3 md:grid-cols-5 gap-2 m-3 md:mx-72">
+        {slideImages.map((photo, index) => (
+          <div key={index} className="relative">
+            <img
+              src={photo.url}
+              alt={`Photo ${index}`}
+              className="w-full h-auto cursor-pointer"
+              onClick={() => handleClick(photo.url)}
+            />
+          </div>
+        ))}
+
+        {selectedPhoto && (
+          <div className="fixed top-0 left-0 flex justify-center items-center w-full h-full bg-black bg-opacity-50" onClick={handleClose}>
+            <div className="max-w-lg mx-auto bg-white rounded-lg overflow-hidden">
+              <img src={selectedPhoto} alt="Selected" className="w-full" />
+            </div>
+          </div>
+        )}
       </div>
+    </div>
+  );
+};
 
-      <div className='ml-auto mr-auto pt-8 pb-16 max-w-6xl bg-gray-200'>
-        {/* <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Galeria</h1> */}
-        <div className="slide-container">
-          <Carousel infiniteLoop showArrows dynamicHeight  >
-            {slideImagesDonos.map((slideImage, index) => (
-              <div key={index}>
-                {/* <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-                </div> */}
-                <img style={{ width: '100%' }} src={slideImage.url} alt='foto' />
-              </div>
-            ))}
-          </Carousel>
-        </div>
-      </div>
-
-      <div className='ml-auto mr-auto pt-8 pb-16 max-w-6xl bg-gray-200'>
-        {/* <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Galeria</h1> */}
-        <div className="slide-container">
-          <Carousel infiniteLoop showArrows dynamicHeight >
-            {slideImagesA.map((slideImage, index) => (
-              <div key={index} className='flex flex-col items-center'>
-                {/* <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-                </div> */}
-                <img style={{ width: '60%' }} src={slideImage.url} alt='foto' />
-              </div>
-            ))}
-          </Carousel>
-        </div>
-      </div>
-
-      <div className='ml-auto mr-auto pt-8 pb-16 max-w-6xl bg-gray-200'>
-        {/* <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Galeria</h1> */}
-        <div className="slide-container">
-          <Carousel showThumbs >
-            {slideImagesB1.map((slideImage, index) => (
-              <img key={index} style={{ width: '60%' }} src={slideImage.url} alt='foto' />
-
-            ))}
-          </Carousel>
-        </div>
-      </div>
-
-      <div className='ml-auto mr-auto pt-8 pb-16 max-w-6xl bg-gray-200'>
-        {/* <h1 className="text-center font-bold text-4xl p-4 mb-6 text-gray-800">Galeria</h1> */}
-        <div className="slide-container">
-          <Carousel infiniteLoop>
-            {slideImagesB.map((slideImage, index) => (
-              <div key={index} className='flex flex-col items-center justify-center'>
-                <img style={{ width: '60%' }} src={slideImage.url} alt='foto' />
-              </div>
-            ))}
-          </Carousel>
-        </div>
-      </div>
-
-    </>
-  )
-}
+export default PhotoGrid;
